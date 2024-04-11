@@ -12,3 +12,12 @@ function clicar(){
     console.log(resultado) */
     resultado.innerText = `O resultado foi ${soma}`
 }
+
+function vezes(){
+    var n1 = parseFloat(document.getElementById('numero1').value)
+    var n2 = parseFloat(document.getElementById('numero2').value)
+    var result = document.getElementById('result')
+
+    var multiplicar = n1*n2
+    result.innerText = `O resultadoi foi ${multiplicar}`
+}
