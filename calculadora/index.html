@@ -3,17 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Calculadora</title>
 </head>
 <body>
+    
     <h1>Calculador HTML + JS</h1>
     <input type="number" id = "numero1">
     <input type="number" id = "numero2">
-    <button id="btnClicar" onclick="clicar()">Calcular</button>
-    <button id="btnMultiplicar" onclick="vezes()">multiplicar</button>
+    <div class="botoes">
+    <button id="btnClicar" onclick="clicar()">+</button>
+    <button id="btnSubtrair" onclick="subtracao()">-</button>
+    <button id="btnMultiplicar" onclick="vezes()">X</button>
+    <button id="btnDividir" onclick="divisao()">÷</button>
+    </div>
     <h2>Resultados: </h2>
     <p id="resultado"></p>
-    <p id="result"></p>
+    <p id="resultado2"></p>
+    <p id="resultado3"></p>
+    <p id="resultado4"></p>
+
     <script src="app.js"></script>
 </body>
 </html>

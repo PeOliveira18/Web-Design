@@ -1,0 +1,49 @@
+
+
+.botoes{
+    display: flex;
+    margin-top: 10px;
+    justify-content: flex-start;
+}
+
+#btnClicar{
+    background-color:bisque;
+    align-items: center;
+    padding: 10px;
+    border:none;
+    width: fit-content;
+    border-radius: 5px;
+    margin-left: 20px;
+    
+}
+
+#btnSubtrair{
+    align-items: center;
+    margin-left: 20px;
+    background-color:bisque;
+    border: none;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 10px;
+    
+}
+
+#btnMultiplicar{
+    margin-left: 20px;
+    background-color:bisque;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: fit-content;
+    align-items: center;
+}
+
+#btnDividir{
+    margin-left: 20px;
+    background-color:bisque;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    width: fit-content;
+
+}
