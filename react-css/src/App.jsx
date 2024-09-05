@@ -13,7 +13,7 @@ function App() {
       className='titulo'
       style={estiloTitulo}
       >Titulo da pagina</h1>
-      <p className='text-blue-800 text-5xl bg-gray-800 ml-8 mr-7 flex justify-center'>Paragrafo</p>
+      <p className='text-blue-800 text-5xl md:text-purple-500 w-[350px] bg-gray-800 ml-8 mr-7 flex justify-center'>Paragrafo</p>
     </>
   )
 }
